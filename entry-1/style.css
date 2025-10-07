@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Jacquarda+Bastarda+9&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Titan+One&display=swap');
+
+h1 { 
+    font-family: "Jacquarda Bastarda 9", system-ui;
+    color: black;
+    background-color: #388EFF;
+    width: 10%;
+    margin: auto;
+    margin-top: 300px;
+    margin-left: 650px;
+    padding: 15px 200px 200px 15px;
+}
+
+.sound-icon {
+    margin: 0;
+    top: 10px;
+    left:100px;
+    width: 80%;
+    padding: 0;
+}
+
+
+.question-icon {
+    margin: 0;
+    top: 10px;
+    left: 500px;
+    width:80%;
+    padding: 0;
+}
+
+
