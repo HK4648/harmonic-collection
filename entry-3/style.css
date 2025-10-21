@@ -13,13 +13,15 @@ body {
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 70px;
+  margin-top: 60px;
   justify-content: center;
 }
 
 .album {
   width: 100px;
   height: 75px;
-  background-color: #99C5FF;
+  background-color: #7AB4FF;
+  border-radius: 10px;
   font-style: italic;
   font-family: 'Bitcount Prop Single Ink', sans-serif;
   font-size: 12px;
@@ -28,4 +30,37 @@ body {
   align-items: flex-end;
   justify-content: center;
   padding-bottom: 8px;
+}
+
+.outerbox{
+  background-color:#99C5FF;
+  text-align:center;
+  width:1000px;
+  height:800px;
+  margin-left: 300px; 
+  margin-top: 30px; 
+  border-radius: 20px;
+}
+
+.topbox {
+    background-color: #7AB4FF;
+    text-align: center;
+    width: 1000px;
+    height: 100px;
+    margin-top: -80px;
+    border-radius: 20px;
+}
+
+img {
+    margin-right: 900px;
+    margin-top: 20px;
+    width: 5%;
+    height: auto;
+}
+
+.sound-icon {
+    margin-left: 900px;   /* why is it not working??? bot icons are just on the left, but why? */
+    margin-top: 20px;
+    width: 5%;
+    height: auto;
 }

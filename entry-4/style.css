@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+
+.outerbox{
+  background-color:#99C5FF;
+  text-align:center;
+  width:1000px;
+  height:800px;
+  margin-left: 300px; 
+  margin-top: 30px; 
+  border-radius: 20px;
+}
+
+.topbox {
+    background-color: #7AB4FF;
+    text-align: center;
+    width: 1000px;
+    height: 100px;
+    margin-top: -80px;
+    border-radius: 20px;
+}
+
+img {
+    margin-right: 900px;
+    margin-top: 20px;
+    width: 5%;
+    height: auto;
+}
+
+.sound-icon {
+    margin-left: -900px;   /* why is it not working??? bot icons are just on the left, but why? */
+    margin-top: 20px;
+    width: 5%;
+    height: auto;
+}
+
+
+.center-me{
+    font-family: 'Bitcount Prop Single Ink', sans-serif;
+    display:inline-block;
+    padding: 30px;
+}
+
+.gallery {
+    display: inline-block;
+    border: 1px solid #004BAD;
+    margin: 5px;
+}
+
+.gallery .description {
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover {
+    border: 1px solid #004BAD;
+}
