@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Bitcount Prop Single Ink', sans-serif;
-  background-color: white; /how do i make a box behind the files?/
+  background-color: white;
   margin: 0;
   padding: 40px;
   justify-content: center;
@@ -32,35 +32,35 @@ body {
   padding-bottom: 8px;
 }
 
-.outerbox{
-  background-color:#99C5FF;
-  text-align:center;
-  width:1000px;
-  height:800px;
-  margin-left: 300px; 
-  margin-top: 30px; 
+.outerbox {
+  background-color: #99C5FF;
+  text-align: center;
+  width: 1000px;
+  height: 800px;
+  margin-left: 300px;
+  margin-top: 100px;
   border-radius: 20px;
 }
 
 .topbox {
-    background-color: #7AB4FF;
-    text-align: center;
-    width: 1000px;
-    height: 100px;
-    margin-top: -80px;
-    border-radius: 20px;
+  background-color: #7AB4FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 0 20px; 
+  width: 960px;
+  height: 100px;
+  margin-top: -80px;
+  border-radius: 20px;
 }
 
-img {
-    margin-right: 900px;
-    margin-top: 20px;
-    width: 5%;
-    height: auto;
+.icon {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
 }
 
-.sound-icon {
-    margin-left: 900px;   /* why is it not working??? bot icons are just on the left, but why? */
-    margin-top: 20px;
-    width: 5%;
-    height: auto;
+.center-me {
+  font-family: 'Bitcount Prop Single Ink', sans-serif;
+  font-size: 24px;
 }

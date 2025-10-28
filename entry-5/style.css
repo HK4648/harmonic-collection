@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Jacquarda+Bastarda+9&family=Titan+One&display=swap');
+
+h3 {
+    font-family: "Jacquarda Bastarda 9", system-ui; 
+    font-size: 100px;
+}
+
+p {
+    font-family:'Bitcount Prop Single Ink', sans-serif;
+    font-size: 30px; 
+}
