@@ -20,6 +20,14 @@ h1 {
   box-sizing: border-box;
 }
   
+div{
+  position: absolute;      
+  top: 275px;              
+  left: 36.5%;
+  width: 150px;
+  height: 70px;
+  background-color:#7AB4FF;
+} 
 
   .sound, .question {
     position: fixed;
