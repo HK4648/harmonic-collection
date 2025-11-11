@@ -10,3 +10,14 @@ p {
     font-family:'Bitcount Prop Single Ink', sans-serif;
     font-size: 30px; 
 }
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+
