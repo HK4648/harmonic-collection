@@ -1,18 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
 
-body {
-  font-family: 'Bitcount Prop Single Ink', sans-serif;
-  margin: 0;
-  padding: 40px;
-  display: flex;
-  justify-content: center;
-}
+.home, .question {
+    position: fixed;
+    top: 16px;
+    z-index: 1000;
+    display: block;
+    line-height: 0;
+  }
+  .home     { left: 16px; }
+  .question  { right: 16px; }
+  
+  .home img, .question img {
+    display: block;
+    height: 64px;   /*크기*/
+    width: auto;
+    object-fit: contain;
+  }
+
+body { 
+  font-family: 'Bitcount Prop Single Ink', sans-serif; 
+  margin: 0; 
+  padding: 40px; 
+  display: flex; 
+  justify-content: center; }
+
+
 
 .folders {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 480px;
+  width: 480px
   gap: 20px;
   justify-content: center;
 }
