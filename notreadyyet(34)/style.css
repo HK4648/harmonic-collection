@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Jacquarda+Bastarda+9&family=Titan+One&display=swap');
+
+body {
+    background-image: url("../imagefolder/statictv.png");
+}
+
+h3 {
+    font-family: "Jacquarda Bastarda 9", system-ui; 
+    font-size: 150px;
+    color: white;
+}
+
+p {
+    font-family:"Jacquarda Bastarda 9", sans-serif;
+    font-size: 70px; 
+    color: white;
+}
+
+@media (max-width: 768px) {
+    h3 {
+        font-size: 50px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Jacquarda+Bastarda+9&family=Titan+One&display=swap');
+
+.center-me {
+  font-family: 'Bitcount Prop Single Ink', sans-serif;
+  font-size: 30px;
+}
+
+.icon {
+  width: 40px;
+  height: auto;
+  cursor: pointer;
+}
+
+.diary-entry {
+  position: relative;
+  width: 700px;
+}
+
+.diary-entry img {
+  width: 100%;
+  display: block;
+}
+
+.diary-text {
+  position: absolute;
+  top: 20px;   /* adjust vertical placement */
+  left: 20px;  /* adjust horizontal placement */
+  right: 20px;
+  color: #333; /* make sure text is visible */
+  font-family: "Jacquarda Bastarda 9", system-ui; 
+  font-size: 30px;
+}
+
