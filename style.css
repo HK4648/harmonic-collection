@@ -1,3 +1,47 @@
-body {
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Jacquarda+Bastarda+9&family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Titan+One&display=swap');
+
+h1 {
+  position: absolute;      
+  top: 300px;              
+  left: 50%;              
+  transform: translateX(-50%); 
+
+  font-family: "Jacquarda Bastarda 9", system-ui;
+  color: black;
+  background-color: #99C5FF;
+  padding: 15px 200px 200px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  width: auto;            
+  margin: 0;               
+  box-sizing: border-box;
 }
+  
+div{
+  position: absolute;      
+  top: 300px;              
+  left: 36.5%;
+  width: 150px;
+  height: 70px;
+  background-color:#7AB4FF;
+} 
+
+  .home, .question {
+    position: fixed;
+    top: 16px;
+    z-index: 1000;
+    display: block;
+    line-height: 0;
+  }
+  .home     { left: 16px; }
+  .question  { right: 16px; }
+  
+  .home img, .question img {
+    display: block;
+    height: 64px;   /*크기*/
+    width: auto;
+    object-fit: contain;
+  }
