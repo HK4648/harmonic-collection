@@ -59,3 +59,28 @@
 .gallery:hover {
   border: 5px solid #ffffff;
 }
+
+@media (max-width: 768px) {
+  .outerbox {
+    margin: 40px auto;
+    width: 95%;
+  }
+
+  .topbox {
+    flex-direction: row;
+    height: 80px;
+    font-size: 18px;
+  }
+
+  .icon {
+    width: 35px;
+  }
+
+  .gallery {
+    width: 45%;
+  }
+
+  .photo {
+    width:60%;
+  }
+}

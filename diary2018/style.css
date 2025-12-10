@@ -24,11 +24,23 @@
 
 .diary-text {
   position: absolute;
-  top: 20px;   /* adjust vertical placement */
-  left: 20px;  /* adjust horizontal placement */
+  top: 20px;   
+  left: 20px;  
   right: 20px;
-  color: #333; /* make sure text is visible */
+  color: #333; 
   font-family: "Jacquarda Bastarda 9", system-ui; 
   font-size: 30px;
+}
+
+@media (max-width: 768px) {
+  .center-me {
+    font-size: 50%;
+  }
+  .diary-entry {
+    width:40%;
+  }
+  .diary-text {
+    font-size: 40%;
+  }
 }
 
